@@ -1,8 +1,8 @@
 " ccheever vimrc
 
 " super tab completion
-source supertab.vim
-source colors.vim
+source $HOME/vimrc/supertab.vim
+source $HOME/vimrc/colors.vim
 
 
 " treat .phpt files as .php files
