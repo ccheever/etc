@@ -1,1 +1,13 @@
 vimrc configuration for Charlie Cheever
+
+To install git clone into a directory called `vimrc` in your home
+directory, and then do
+
+    ln -s $HOME/vimrc/vimrc $HOME/.vimrc
+
+If you already have a custom .vimrc, this won't work and you'll have to 
+do something like add a line like
+
+    source $HOME/vimrc/vimrc 
+
+to the bottom of your custom .vimrc
