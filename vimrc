@@ -33,3 +33,8 @@ autocmd FileType python set ts=4|set shiftwidth=4|set expandtab|set autoindent|s
 " syntax on and no highlight search
 set nohlsearch
 syntax on
+
+" See http://vim.wikia.com/wiki/Backspace_and_delete_problems
+" Make sure that backspace works consistently
+set backspace=indent,eol,start
+
