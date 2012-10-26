@@ -3,6 +3,7 @@
 " super tab completion
 source $HOME/vimrc/supertab.vim
 source $HOME/vimrc/colors.vim
+autocmd FileType clojure source $HOME/vimrc/clojure.vim
 
 
 " treat .phpt files as .php files
