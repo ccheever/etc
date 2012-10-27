@@ -3,6 +3,7 @@
 " super tab completion
 source $HOME/vimrc/supertab.vim
 source $HOME/vimrc/colors.vim
+autocmd FileType clojure source $HOME/vimrc/clojure.vim
 
 
 " treat .phpt files as .php files
@@ -40,3 +41,8 @@ set listchars=tab:>-,trail:·
 " syntax on and no highlight search
 set nohlsearch
 syntax on
+
+" See http://vim.wikia.com/wiki/Backspace_and_delete_problems
+" Make sure that backspace works consistently
+set backspace=indent,eol,start
+
