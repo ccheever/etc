@@ -27,9 +27,6 @@ autocmd FileType javascript set ts=2|set shiftwidth=2|set expandtab|set autoinde
 " pyton conventions
 autocmd FileType python set ts=4|set shiftwidth=4|set expandtab|set autoindent|set softtabstop=4
 
-" clojure conventions
-autocmd FileType clojure set ts=2|set shiftwidth=2|set expandtab|set autoindent|set softtabstop=2
-
 " more svn stuff
 "autocmd BufNewFile,BufRead svn-commit.tmp     :r ~/svn-commit-template.txt
 "autocmd BufNewFile,BufRead svn-commit.2.tmp   :r svn-commit.tmp
