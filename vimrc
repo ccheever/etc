@@ -15,16 +15,19 @@ set shiftwidth=4
 set expandtab
 set showmatch " flashes matching paren when one is typed
 
-" facebook tab conventions for php
+" Facebook tab conventions for php
 autocmd FileType php set ts=2|set shiftwidth=2|set expandtab|set autoindent|set softtabstop=2
 
-" facebook tab conventions for sql
+" Facebook tab conventions for sql
 autocmd FileType sql set ts=2|set shiftwidth=2|set expandtab|set autoindent|set softtabstop=2
 
-" facebook tab conventions for js
+" Facebook tab conventions for js
 autocmd FileType javascript set ts=2|set shiftwidth=2|set expandtab|set autoindent|set softtabstop=2
+au BufRead,BufNewFile *.iced setfiletype coffee
+autocmd FileType coffee set ts=2|set shiftwidth=2|set expandtab|set autoindent|set softtabstop=2
 
-" pyton conventions
+
+" Python conventions
 autocmd FileType python set ts=4|set shiftwidth=4|set expandtab|set autoindent|set softtabstop=4
 
 " more svn stuff
