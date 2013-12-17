@@ -46,3 +46,5 @@ syntax on
 " Make sure that backspace works consistently
 set backspace=indent,eol,start
 
+" I think the ruler thing would be good
+set ruler
