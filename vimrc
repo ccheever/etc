@@ -1,9 +1,9 @@
 " ccheever vimrc
 
 " super tab completion
-source $HOME/vimrc/supertab.vim
-source $HOME/vimrc/colors.vim
-autocmd FileType clojure source $HOME/vimrc/clojure.vim
+source $HOME/etc/supertab.vim
+source $HOME/etc/colors.vim
+autocmd FileType clojure source $HOME/etc/clojure.vim
 
 
 " treat .phpt files as .php files
