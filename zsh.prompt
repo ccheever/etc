@@ -1,0 +1,2 @@
+export PROMPT="%F{blue}%3~%f %# "
+
