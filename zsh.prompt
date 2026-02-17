@@ -1,2 +1,3 @@
 export PROMPT="%F{blue}%3~%f %# "
+#export PROMPT="%F{yellow}%n@%m:%F{blue}%3~%f %# "
 

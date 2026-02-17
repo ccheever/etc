@@ -48,3 +48,7 @@ set backspace=indent,eol,start
 
 " I think the ruler thing would be good
 set ruler
+
+" Need to do this for TypeScript or else syntax highlighting will timeout which is insane and dumb
+" https://jameschambers.co.uk/vim-typescript-slow/
+set re=0

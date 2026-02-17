@@ -1,5 +1,7 @@
 " starting default colorscheme
-colorscheme peachpuff
+"colorscheme peachpuff
+"colorscheme habamax
+colorscheme slate
 
 " Coloring Commands
 highlight Comment ctermfg=darkgreen
