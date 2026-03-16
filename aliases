@@ -1,2 +1,2 @@
 alias codexy="codex --dangerously-bypass-approvals-and-sandbox"
-alias claudey="claude --dangerously-skip-permissions"
+alias claudey="claude --dangerously-skip-permissions --effort=max"
