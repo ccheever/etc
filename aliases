@@ -1,2 +1,26 @@
-alias codexy="codex --dangerously-bypass-approvals-and-sandbox"
-alias claudey="claude --dangerously-skip-permissions --effort=max"
+alias codexy="codex --dangerously-bypass-approvals-and-sandbox --enable goals"
+alias codexyl="codex --dangerously-bypass-approvals-and-sandbox --enable goals -c 'model_reasoning_effort=\"low\"'"
+alias codexymed="codex --dangerously-bypass-approvals-and-sandbox --enable goals -c 'model_reasoning_effort=\"medium\"'"
+alias codexyh="codex --dangerously-bypass-approvals-and-sandbox --enable goals -c 'model_reasoning_effort=\"high\"'"
+alias codexyx="codex --dangerously-bypass-approvals-and-sandbox --enable goals -c 'model_reasoning_effort=\"xhigh\"'"
+alias codexym="codex --dangerously-bypass-approvals-and-sandbox --enable goals -c 'model_reasoning_effort=\"max\"'"
+alias codexyu="codex --dangerously-bypass-approvals-and-sandbox --enable goals -c 'model_reasoning_effort=\"ultra\"'"
+
+alias claudey="claude --dangerously-skip-permissions"
+alias claudeyl="claude --dangerously-skip-permissions --effort=low"
+alias claudeymed="claude --dangerously-skip-permissions --effort=medium"
+alias claudeyh="claude --dangerously-skip-permissions --effort=high"
+alias claudeyx="claude --dangerously-skip-permissions --effort=xhigh"
+alias claudeym="claude --dangerously-skip-permissions --effort=max"
+
+alias kimiy="kimi --yolo"
+alias kimiyl="KIMI_MODEL_THINKING_EFFORT=low kimi --yolo"
+alias kimiyh="KIMI_MODEL_THINKING_EFFORT=high kimi --yolo"
+alias kimiym="KIMI_MODEL_THINKING_EFFORT=max kimi --yolo"
+
+alias groky="grok --always-approve"
+alias grokyl="grok --always-approve --effort=low"
+alias grokymed="grok --always-approve --effort=medium"
+alias grokyh="grok --always-approve --effort=high"
+
+alias agenty="agent --always-approve"
