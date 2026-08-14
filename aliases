@@ -22,5 +22,6 @@ alias groky="grok --always-approve"
 alias grokyl="grok --always-approve --effort=low"
 alias grokymed="grok --always-approve --effort=medium"
 alias grokyh="grok --always-approve --effort=high"
+alias grokyx="grok --always-approve --effort=xhigh"
 
 alias agenty="agent --always-approve"
